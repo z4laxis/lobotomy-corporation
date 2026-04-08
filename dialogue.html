@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lob corp dialogue</title>
+  <style>
+    @font-face {
+      font-family: 'Norwester';
+      src: url('/assets/lob_corp/fonts/norwester.otf') format('opentype');
+    }
+    
+    @font-face {
+      font-family: 'GillSansMTPro';
+      src: url('/assets/lob_corp/fonts/GillSansMTPro-Book.otf') format('opentype');
+    }
+
+    body {
+      overflow: hidden;
+      margin: 0;
+    }
+
+    .bg-image {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+    }
+
+    .color-overlay {
+        z-index: 1;
+        height: 32.5%;
+        top: 70%;
+        left: 0;
+        width: 100%;
+        position: absolute;
+    }
+
+    .day-image {
+      width: 16%;
+      left: 3%;
+      top: 3%;
+      opacity: 0;
+      position: absolute;
+    }
+
+    .day-container {
+      width: 16%;
+      left: 3%;
+      top: 3%;
+      position: absolute;
+    }
+
+    .day-container img {
+      width: 100%;
+      position: absolute;
+    }
+
+    .main-bar {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main-container {
+        top: 70%;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 30%;
+    }
+
+    h1 {
+        letter-spacing: 0.2vmin;
+        font-family: "Norwester", sans-serif;
+        font-size: 7.5vmin;
+        font-weight: lighter;
+        width: 95%;
+        text-align: center;
+        margin: 3.5% 0;
+        position: absolute;
+        color: #ffffa2;
+    }
+    
+    p {
+        font-family: "GillSansMTPro", sans-serif;
+        color: white;
+        position: absolute;
+        left: 17.5%;
+        top: 12.5%;
+        width: 75%;
+        font-size: 3vmin;
+    }
+
+    .backlog {
+      width: 5%;
+      right: 1%;
+      top: 2%;
+      position: absolute;
+      cursor: pointer;
+    }
+
+    .extras-bar {
+        width: 100%;
+        z-index: 2;
+        height: 32.5%;
+        top: 69.9%;
+        left: 0;
+        position: absolute;
+    }
+  </style>
+</head>
+<body>
+    <img src="/assets/lob_corp/img/cg/lightoff.png" class="bg-image">
+    <img src="https://zalaxis.neocities.org/assets/lob_corp/img/dialogue/backlog.png" class="backlog">
+    
+    <div class="day-container">
+        <img src="https://zalaxis.neocities.org/assets/lob_corp/img/dialogue/day.png">
+        <h1>DAY 1</h1>
+    </div>
+    
+    <div class="main-container">
+        <img src="https://zalaxis.neocities.org/assets/lob_corp/img/dialogue/main.png" class="main-bar">
+        <p>lalalalalalalalala</p>
+<img src="https://zalaxis.neocities.org/assets/lob_corp/img/dialogue/text.png" style="
+    position: absolute;
+    z-index: 3;
+    left: 26.5%;
+    top: 25%;
+    width: 1.25%;
+">
+    </div>
+    
+    <img src="https://zalaxis.neocities.org/assets/lob_corp/img/dialogue/color.png" class="color-overlay">
+    <img src="https://zalaxis.neocities.org/assets/lob_corp/img/dialogue/extras.png" class="extras-bar">
+</body>
+</html>
